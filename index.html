@@ -1,0 +1,52 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+  <h1>To bill a credit card<br /> simply fill out this form:</h1>
+  <div id="content">
+  <form>
+    <label id="labelDesc">Bill Description:
+    <input type="text" id="descForm" /><div id="desc-error"></div></label>
+    <input type="submit" hidden />
+  </form>
+  	<form>
+    	<label id="amountDesc">Amount:
+    	<input type="text" id="amount" />
+        <input type="submit" hidden /><div id="amount-error"></div></label>
+  	</form>
+  	<form>
+  		<fieldset>
+  			<legend> Credit Card Info </legend>
+  			<label>
+  				<input type="text" id="cc_number" placeholder="CC Number" maxlength=16>
+  			</label><span id="cc_err"></span><br />
+  			<label> 
+  				<input type="text" id="CCV" placeholder="CCV" maxlength=4>
+  			 </label><span id="ccv_err"></span><br /> 
+  			<label>
+  				<input type="text" id="exp" placeholder="MM/YYYY" ><span id="exp_err"></span>
+  			</label><br />
+  			<label>
+  				<input type="text" name="Cardholder Name" placeholder="Name">
+  			</label><br />
+  			<label>
+  				<input type="text" name="Billing Address" placeholder="Billing Address">
+  			</label>
+		</fieldset>
+		<input type="submit" hidden>
+	</form>
+	<form id="dropdown">
+		<select name="Subscription">
+			<option value="dropdown" name="one-time">One-time</option>
+			<option value="dropdown" name="monthly">Monthly</option>
+			<option value="dropdown" name="Annual">Annual</option>
+		</select>
+			<br />
+		<input type="submit" id="search	">
+	</form>
+	</div>
+</body>
+</html>

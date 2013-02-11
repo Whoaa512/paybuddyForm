@@ -1,0 +1,59 @@
+body {
+ 	background: #333333;
+ 	color: #dddddd;
+  font-family: helvetica;
+}
+
+h1 {
+	text-align: center;
+	width: 400px;
+	margin: 20px auto;
+}
+
+#labelDesc {
+	width: 250px;
+	margin-left: 420px;
+	outline-color: none;
+}
+
+#labelDesc:hover {
+	background-color: #dddddd;
+	color: black;
+}
+
+#descForm:hover {
+	background-color: black;
+	color: #333333;
+}
+
+#amountDesc {
+	margin-left: 473px;
+}
+
+#amountDesc:hover {
+	background-color: #dddddd;
+	color: #333333;
+}
+
+#card:hover {
+	background-color: #dddddd;
+	color: #333333;
+}
+
+fieldset {
+	width: 15%;
+	margin: 10px auto;
+}
+
+#dropdown {
+	width: 100px;
+	margin: 10px auto 40px 540px;
+}
+
+#search {
+	margin-top: 20px;
+}
+
+#content {
+	margin-top: 50px;
+}
